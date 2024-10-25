@@ -1,0 +1,33 @@
+body {
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-spacing: 10px;
+    width: 70%;
+}
+
+p {
+    font-weight: bold;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+.row-pair:hover {
+    background-color: #D6EEEE;
+}
+
+td {
+    width: 50%;
+}
