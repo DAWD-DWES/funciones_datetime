@@ -9,7 +9,9 @@
     <body>
         <h2>Programación con librería Datetime</h2>
         <table>
-            <tr><td><p>Crea una instancia de la clase DateTime para la fecha actual</p></td></tr>
+            <tr>
+                <td><p>Crea una instancia de la clase DateTime para la fecha actual. Define un huso horario por defecto asociado a 'Europe/Madrid'</p></td>
+            </tr>
             <tr>
                 <td><!-- Escribe tu código aquí --></td>
             </tr>
