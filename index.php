@@ -115,13 +115,13 @@
                     ?></td>
             </tr>
             <tr>
-                <td><p>Muestra las fechas que hay entre la fecha actual y la específica con un intervalo de una semana</p></td>
+                <td><p>Muestra las fechas que hay entre la fecha actual y la específica con un intervalo de una semana, dos días y 13 horas</p></td>
             </tr>
             <tr>
                 <td><?php
                     $fechaActual = new DateTime();
                     $fechaEspecifica = DateTime::createFromFormat('d/m/Y', "20/12/2024");
-                    $intervaloSemana = new DateInterval('P1W');
+                    $intervaloSemana = new DateInterval('P1W2DT13H');
                     $periodo = new DatePeriod($fechaActual, $intervaloSemana, $fechaEspecifica);
                     echo "Las fechas del periodo son:";
                     foreach ($periodo as $fecha) { // Devuelve fechas desde la fecha inicial cada dos días
