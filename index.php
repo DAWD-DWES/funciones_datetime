@@ -74,7 +74,7 @@
                 <td><!-- Escribe tu código aquí --></td>
             </tr>
             <tr>
-                <td><p>Muestra las fechas que hay entre la fecha actual y la específica con un intervalo de una semana</p></td>
+                <td><p>Muestra las fechas que hay entre la fecha actual y la específica con un intervalo de una semana, dos días y 13 horas</p></td>
             </tr>
             <tr>
                 <td><!-- Escribe tu código aquí --></td>
